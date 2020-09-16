@@ -1,6 +1,4 @@
-# Project Name
-
-> HTML & CSS: Intuit signup form
+# HTML & CSS: Intuit signup form
 
 ![screenshot](https://user-images.githubusercontent.com/3836411/93348056-0ab86300-f836-11ea-809d-2e0153908a71.png)
 
