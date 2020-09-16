@@ -2,39 +2,93 @@
 
 <head>
 
-<title> Signup Form</title>
+    <title> Signup Form</title>
 
-<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
 
 
-<div class = "frame">
 
-<h2> Create an Intuit account </h2>
-<p>One account for everything Intuit, including Mint.</p>
-<a href="#">Learn more</a>
+    <div id="sign-in">
+        <p>Already have an Intuit account?<br>
+            I forgot my User ID or Password Sign In</p>
+        <button>Sign in</button>
+    </div>
+
+    <header>
+        <img id="intuit-logo" src="assets/logo-intuit.png">
+
+        <div id="small-logos">
+            <img src="assets/logo-mint.png">
+            <img src="assets/logo-quickbooks.png">
+            <img src="assets/logo-turbotax.png">
+
+        </div>
+    </header>
+
+    <div class="frame">
+
+        <div id="introduction" class="text-center">
+            <h2> Create an Intuit account </h2>
+            <p>One account for everything Intuit, including Mint.</p>
+            <p><a href="#">Learn more</a></p>
+            <p>Already have an account? <a href="#">Sign In</a></p>
+        </div>
 
 
-<form>
 
-<label for= "email">Email address: </label>
-<br>
-<input type = "email" placeholder = "email" required >
 
-<label for= "tel"> Phone (recommended) </label>
-<br>
-<input type = "tel" placeholder = "Phone" required >
 
-<label for= "password"> Password </label>
-<br>
-<input type = "password" placeholder = "password" required >
 
-<input type = "submit" value="Create Account">
+        <form>
 
-</form>
+            <label for="email">Email address: </label>
+            <br>
+            <input type="email" placeholder="email" required>
+
+            <label for="tel"> Phone (recommended) </label>
+            <br>
+            <input type="tel" placeholder="Phone" required>
+
+            <label for="password"> Password </label>
+            <br>
+            <input type="password" placeholder="password" required>
+
+            <button>
+                <img src='/assets/lock-icon.png'>Create Account
+            </button>
+
+
+
+        </form>
+        <div id="disclaimer" class="text-center">
+            <p>By clicking Create account, you agree to our <a href="#">Terms</a> and have read and acknowledge our
+                <a href="#">Privacy Statement</a>.
+            </p>
+
+        </div>
+
+        <aside class="text-center">
+            <p>Invisible reCAPTCHA by Google <a href="#">Privacy Policy</a> and <a href="#">Terms of Use</a>.</p>
+        </aside>
+
+
+
+    </div>
+
+    <footer>
+
+        <p><a href="#">Legal</a> <a href="#">Privacy</a> <a href="#">Security</a></p>
+        <p>© 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are
+            registered trademarks
+            of Intuit Inc.</p>
+        <p>Terms and conditions, features, support, pricing, and service options subject to change without notice.
+        </p>
+
+    </footer>
 
 
 </body>
