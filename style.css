@@ -3,16 +3,12 @@ body {
 }
 
 * {
-  font-family: "Helvetica Neue", Helvetica, Arial sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 a {
   margin: 0 auto;
   text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
 }
 
 .text-center {
@@ -25,7 +21,6 @@ a:hover {
   margin: auto;
   background: white;
   box-sizing: border-box;
-  padding: auto;
   color: black;
   margin-bottom: 20px;
   margin-top: 20px;
@@ -69,6 +64,10 @@ button {
 input,
 button {
   margin: 8px 0 30px 0;
+}
+
+footer p {
+  margin: 5px 0;
 }
 
 #sign-in {
@@ -142,6 +141,6 @@ footer a {
   margin: 0 10px;
 }
 
-footer p {
-  margin: 5px 0;
+a:hover {
+  text-decoration: underline;
 }
