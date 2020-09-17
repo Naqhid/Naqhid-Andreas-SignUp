@@ -31,7 +31,6 @@ a {
 }
 
 h2 {
-  text-align: center;
   color: black;
   font-weight: 70;
 }
@@ -129,6 +128,11 @@ header {
   margin-bottom: 10px;
 }
 
+#small-logos {
+  display: flex;
+  justify-content: center;
+}
+
 footer {
   text-align: center;
   color: #505050;
@@ -143,4 +147,15 @@ footer a {
 
 a:hover {
   text-decoration: underline;
+}
+
+figure {
+  display: flex;
+  align-items: center;
+  margin: 5px;
+  margin-right: 23px;
+}
+
+header figcaption {
+  color: grey;
 }
