@@ -1,0 +1,6 @@
+*/*.html
+assets/*
+hint-report/
+
+package-lock.json
+package.json
